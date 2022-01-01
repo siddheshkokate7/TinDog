@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signcss.css">
+</head>
+<body>
+    <div id="signup">
+    <form>
+        <div class="sbtn">
+            <a class="btn" href="signup.html">Sign Up</a>
+            <a class="btn1" href="signin.html">Sign In</a>
+        </div>
+        <div>
+            <label>First Name</label> <br>
+            <input type="Name" name="first_name"  placeholder="First Name" id="firstname">
+            <hr>
+            <label>Last Name</label> <br>
+            <input type="text" name="last_name"  placeholder="Last Name" id="lastname">
+            <hr>
+            <label>Email</label> <br>
+            <input type="email" name="email"  placeholder="Email" id="email">
+            <hr>
+            <label>Password</label> <br>
+            <input type="password" name="password"  placeholder="*******" id="password">
+            <hr>
+            <div>
+                <input type="checkbox" name="" id="checkbox">
+                <p>Terms and conditions</p>
+            </div>
+            <button onclick="myFunction()" class="btn3">SIGN UP</button>
+            
+            
+            
+            <script>
+                function myFunction() { 
+                  if (confirm("Sign Up successfully")) {
+                  } 
+                }
+            </script>
+            
+            
+            
+            
+            <br>
+            <a href="signin.html">Allready Member-Sign In</a>
+            
+        </div>
+    </form>
+    </div>
+</body>
+</html>

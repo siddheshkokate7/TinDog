@@ -1,0 +1,192 @@
+.body{
+    font-family: 'Montserrat', sans-serif;
+}
+#title{
+    background-color: #ff4c68;
+}
+/*------Navbar------*/
+.navbar{
+    padding: 0 0 8% 0;
+}
+.tindog{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+}
+.nav-link{
+    margin-left: 30px;
+}
+
+/*----Title----*/
+.container{
+    padding: 3% 7%;
+}
+.title-image{
+    width: 60%;
+    transform: rotate(25deg); /* Equal to rotateZ(45deg) */
+    position: absolute;
+    
+  }
+.head{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 3rem;
+    line-height: 2;  
+}
+.btn{
+    font-family: 'Montserrat-Thin 100', sans-serif;
+    margin: 4% 2%;
+}
+.btn1:hover{
+    background-color: #ff4c68;
+}
+/*-----Features----*/
+
+#features{
+    background-color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    
+}
+.icon{
+    color:#ef8172;
+    padding-bottom: 10px;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+}
+p{
+    color: #8f8f8f;
+}
+
+
+/*---Testimonials-----*/
+
+#testimonials{
+    background-color: #ef8172;
+    
+    
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    
+}
+.ttitle{
+    color: #fff;
+    font-family: 'Montserrat-thin', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.tdog{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.pimage{
+    width: 200px;
+    padding: 4%;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+
+/*====Pricing-----*/
+
+#pricing{
+    text-align: center;
+    padding: 7% 15%;
+    margin: 0 auto 70px auto;
+    font-family: 'Montserrat', sans-serif;
+}
+.phead{
+    padding-bottom: 30px;
+}
+
+/*-----cta------*/
+#cta{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+.ctahead{
+    font-size: 3rem;
+    line-height: 2; 
+}
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+.ficons{
+    padding: 1%;
+}
+.print{
+    font-family: Arial;
+    color: #000000;
+    font-size: 20px;
+    text-decoration: none;
+    border: none;
+    background-color: #fff;
+    display: block;
+    margin-left: 450px;
+    padding-top: 20px;
+  }
+  .print:hover{
+      color: blue;
+  }
+
+  .social{
+  width: 70px;
+  }
+  .facebook{
+  color: blue;
+  }
+  .twitter{
+      color: rgb(132, 132, 255);
+  }
+  .insta{
+      color: rgb(236, 48, 152);
+  }
+  .mail{
+      color: rgb(255, 0, 0);
+  }
+.social:hover{
+ color: #000000;
+ cursor: pointer;
+}
+
+/*----Responsiveness------*/
+
+@media (max-width:700px){
+    body{
+        text-align: center;
+    }
+    .title-image{
+        transform: rotate(0);
+        position: relative;
+    }
+    .carousel-item{
+        padding: 7% 9%;
+    }
+    .ttitle{
+        line-height: 1.5;
+        font-size: 2rem;
+    }
+    .pimage{
+        width: 170px;
+        padding: 4%;
+    }
+}
+

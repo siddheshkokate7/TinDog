@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+    <div id="signup">
+        <form>
+            <div class="sbtn">
+                <a class="btn1" href="signup.html">Sign Up</a>
+                <a class="btn" href="signin.html">Sign In</a>
+            </div>
+            <div>
+               
+                <label>Email</label> <br>
+                <input type="email" name="email"  placeholder="Email" id="email" required>
+                <hr>
+                <label>Password</label> <br>
+                <input type="password" name="password"  placeholder="*******" id="password" required>
+                <hr>
+                
+                <button onclick="myFunction()" class="btn3">SIGN IN</button>
+                    <script>
+                        function myFunction() { 
+                        if (confirm("Sign In successfully")) {
+                        } 
+                            }
+                    </script> <br>
+                <a href="signup.html">Don't have account- Sign up</a>
+                
+            </div>
+        </form>
+        </div>
+</body>
+</html>
